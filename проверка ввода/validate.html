@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" class="my-form" id="form">
+        <div class="form-fields">
+            <label for="name">Your name</label>
+            <input type="name" name="name" id="name" required>
+        </div>
+
+        <div class="form-fields">
+            <label for="phone">Your phone number</label>
+            <input type="tel" name="phone" id="phone" required>
+        </div>
+
+        <div class="form-fields">
+            <label for="email">Your email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <button class="submit">Submit</button>
+
+    </form>
+    <script src="script.js"></script>
+    <script>
+        window.onload = () => {
+            document.getElementById('form').addEventListener('submit', e => {
+                let valid = new Validator ('form');
+                if(!valid.valid){
+                    e.preventDefault();
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>
