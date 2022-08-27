@@ -1,0 +1,44 @@
+.form-fields,
+.submit{
+    margin: 20px 0 20px 20px;
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.submit{
+    width: 115px;
+    height: 35px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input{
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+input:focus{
+    outline: 1px solid darkblue;
+}
+
+.error-text{
+    color: red;
+    margin: 15px 0;
+}
+
+.valid{
+    border: 2px solid green;
+}
+
+.invalid{
+    border: 2px solid red;
+}
