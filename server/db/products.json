@@ -1,0 +1,32 @@
+[
+  {
+    "id_product": 111,
+    "product_name": "Illidan",
+    "price": 5000,
+    "img": "./img/111.jpg"
+  },
+  {
+    "id_product": 112,
+    "product_name": "Illidan vs Malfurion",
+    "price": 5500,
+    "img": "./img/112.jpg"
+  },
+  {
+    "id_product": 113,
+    "product_name": "The Lich King",
+    "price": 5000,
+    "img": "./img/113.jpg"
+  },
+  {
+    "id_product": 114,
+    "product_name": "Sylvanas Windrunner vs Jaina Proudmoore",
+    "price": 6500,
+    "img": "./img/114.jpg"
+  },
+  {
+    "id_product": 115,
+    "product_name": "The World Eater",
+    "price": 6500,
+    "img": "./img/115.jpg"
+  }
+]

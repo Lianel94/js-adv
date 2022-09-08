@@ -1,0 +1,20 @@
+{
+    "amount": 0,
+    "countGoods": 0,
+    "contents": [
+        {
+            "quantity": 2,
+            "id_product": 114,
+            "product_name": "Sylvanas Windrunner vs Jaina Proudmoore",
+            "price": 6500,
+            "img": "./img/114.jpg"
+        },
+        {
+            "quantity": 3,
+            "id_product": 113,
+            "product_name": "The Lich King",
+            "price": 5000,
+            "img": "./img/113.jpg"
+        }
+    ]
+}
